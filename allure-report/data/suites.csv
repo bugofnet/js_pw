@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","784","Invalid Login Test","","Sat Dec 07 21:34:46 CET 2024","passed","Sat Dec 07 21:34:47 CET 2024","","test1.spec.js","",""
+"","1017","Login Test","","Sat Dec 07 21:34:44 CET 2024","passed","Sat Dec 07 21:34:45 CET 2024","","test1.spec.js","",""
