@@ -1,0 +1,23 @@
+{
+  "name": "js_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "test:allure": "npm run test && npm run allure:generate && npm run allure:open"
+  },
+  "author": "bugofnet",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.7"
+  }
+}
