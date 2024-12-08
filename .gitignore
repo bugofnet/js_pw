@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+
+# Playwright and Allure results
+allure-results/
+allure-report/
+test-results/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jest cache and coverage
+coverage/
+jest.cache/
+
+# Editor and IDE specific files
+.vscode/
+.idea/
+*.swp
+*.iml
+
+# OS-specific files
+.DS_Store
+*.swp
+
+# Build artifacts
+dist/
+build/
+
+# NPM package lock files
+package-lock.json
+yarn.lock
+
+# Playwright trace artifacts
+*.zip
+trace.zip
+
+# Environment variables
+.env
+.env.local
